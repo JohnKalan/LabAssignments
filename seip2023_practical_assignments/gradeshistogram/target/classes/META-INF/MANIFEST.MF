@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Built-By: jkkal
+Build-Jdk: 17.0.6
+Class-Path: jfreechart-1.5.4.jar
+Main-Class: YourMainClassPath
+Created-By: Maven Integration for Eclipse
+
