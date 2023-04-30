@@ -6,6 +6,11 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>gradeshistogram</artifactId>
+
+  <name>gradeshistogram</name>
+	<description>This module is responsible for reading grades 
+  from a txt file and produce a corresponding grades histogram.</description>
+
   <dependencies>
 	<dependency>
     <groupId>org.jfree</groupId>
