@@ -13,6 +13,13 @@ import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
 
+/***
+ * 
+ * @author JohnKalan The purpose of this class is to read grades from a txt file
+ * and produce a corresponding grades histogram.
+ * @since April 2023.
+ */
+
 public class HistogramGenerator {
 	public static void main(String[] args) throws IOException {
 		try {
@@ -31,6 +38,11 @@ public class HistogramGenerator {
 	        System.out.println("File not found.");
 	    }
 	}
+	
+	/*
+	 * This class gets the a String type array of grades and produces the
+	 * corresponding chart of those grades.
+	 */
 	public static void generateChart(String[] grades) {
 		/*
 		 * The XYSeriesCollection object is a set XYSeries series (grades) that
@@ -60,7 +72,7 @@ public class HistogramGenerator {
 		boolean urls = false; // do not visualize urls
 
 		// Declare and initialize a createXYLineChart JFreeChart
-		JFreeChart chart = ChartFactory.createXYLineChart("Chart title", "x_axis title", "y_axis_title", dataset,
+		JFreeChart chart = ChartFactory.createXYLineChart("Chart title", "x_axis title", "grades", dataset,
 				PlotOrientation.VERTICAL, legend, tooltips, urls);
 
 		/*
