@@ -5,6 +5,9 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
+  <name>seip2023_practical_assignments</name>
+	<description>This project will include all future assignments for the Software Engineering in Practice lab.</description>
+
   <modules>
   	<module>gradeshistogram</module>
   </modules>
