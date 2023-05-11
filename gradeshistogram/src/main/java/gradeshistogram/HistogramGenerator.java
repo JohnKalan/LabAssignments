@@ -55,16 +55,26 @@ public class HistogramGenerator {
 		 */
 		XYSeries data = new XYSeries("random values");
 
+		/* 
+		 * Calculate the frequency of each grade within the grades array
+		 */
+		// initialize an array to store frequencies, with size 11 for numbers 0-10
+		int[] freq = new int[11]; 
+		// increment the frequency of the number at index arr[i]
+		for (int i = 0; i < grades.length; i++) {
+			freq[Integer.parseInt(grades[i])]++; 
+		}
+
 		/*
 		 * Populating the XYSeries data object from the input Integer array
 		 * values.
 		 */
 		
-		for (int i = 0; i < grades.length; i++) {
-			data.add(i, Integer.parseInt(grades[i]));
+		for (int i = 0; i < freq.length; i++) {
+			data.add(i, freq[i]);
 		}
 
-		// add the series to the grades
+		// add the series to the frequences
 		dataset.addSeries(data);
 
 		boolean legend = false; // do not visualize a legend
@@ -72,7 +82,7 @@ public class HistogramGenerator {
 		boolean urls = false; // do not visualize urls
 
 		// Declare and initialize a createXYLineChart JFreeChart
-		JFreeChart chart = ChartFactory.createXYLineChart("Grades chart", "frequency", "grades", dataset,
+		JFreeChart chart = ChartFactory.createXYLineChart("Grades' Frequency chart", "grades", "frequency", dataset,
 				PlotOrientation.VERTICAL, legend, tooltips, urls);
 
 		/*
