@@ -1,3 +1,4 @@
+tagret/
 .metadata
 bin/
 tmp/
@@ -55,5 +56,3 @@ local.properties
 .scala_dependencies
 .worksheet
 
-target 
-target/* 
