@@ -1,3 +1,5 @@
+target/
+tagret/*
 .metadata
 bin/
 tmp/
@@ -55,5 +57,5 @@ local.properties
 .scala_dependencies
 .worksheet
 
-target 
-target/* 
+gradeshistogram/.classpath
+gradeshistogram/.project
