@@ -7,23 +7,6 @@
     	<artifactId>seip2023_practical_assignments</artifactId>
     	<version>0.0.1-SNAPSHOT</version>
   	</parent>
-	<build>
- 		<plugins>
- 			<plugin>
- 				<groupId>org.jacoco</groupId>
- 				<artifactId>jacoco-maven-plugin</artifactId>
- 				<version>0.8.10</version>
- 				<executions>
- 					<execution>
- 						<id>prepare-agent</id>
- 						<goals>
-						 <goal>prepare-agent</goal>
- 						</goals>
- 					</execution>
- 				</executions>
- 			</plugin>
- 		</plugins>
-	</build>
 	<artifactId>unittesting</artifactId>
 	<name>Unit Testing practice project</name>
 	<description>A project for practicing Unit Testing</description>
