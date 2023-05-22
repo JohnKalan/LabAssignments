@@ -1,4 +1,4 @@
-![Badge](https://github.com/github/JohnKalan/LabAssignments/workflows/maven.yml/badge.svg)
+![workflow](https://github.com/JohnKalan/LabAssignments/actions/workflows/maven.yml/badge.svg)
 
 # Lab Assignments 
 
