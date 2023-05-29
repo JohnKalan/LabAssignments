@@ -15,7 +15,7 @@ The ***JUnit*** framework is used for the corresponding unit tests.
 #### Running the project 
 In order to build the project you need to build it first by using this command: 
 ```
-mvn clean 
+mvn clean package jacoco:report
 ```
 In order to run all the tests of the project use this command:
 ```
