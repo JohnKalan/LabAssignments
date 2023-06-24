@@ -28,3 +28,8 @@ The corresponding README file for the 3rd Lab Assignment is linked below.
 
 > [`README.md for 3rd Lab Assignment`](unittesting/README.md)
 
+## 4th Lab Assignment
+
+The corresponding README file for the 4th Lab Assignment is linked below.
+
+> [`README.md for 4th Lab Assignment`](sourcecodeanalyzer/README.md)
